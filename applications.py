@@ -27,10 +27,6 @@ Assignment_grp = {'d625dccec0a8016700a222a0f7900d06': 'Service Desk',
 url = 'https://dev66982.service-now.com/api/now/table/incident?sysparm_limit=10'
 
 
-# User credentials for Service Now
-user = 'admin'
-pwd = 'Santosh@802'
-
 # Set proper headers
 headers = {"Content-Type": "application/xml", "Accept": "application/json"}
 
