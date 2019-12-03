@@ -1,0 +1,15 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+Twilio Talks
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <p> GPID : {{ id }}</p>
+    <p> Name : {{ name }}</p>
+    <p> Topic of discussion : {{choice}}</p>
+    <p> Incident number : {{incident_num}}</p>
+    <p> Short description : {{concern}}</p>
+</div>
+{% endblock %}
