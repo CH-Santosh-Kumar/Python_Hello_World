@@ -5,13 +5,6 @@ from twilio.twiml.voice_response import VoiceResponse
 import requests
 from twilio.rest import Client
 
-# Your Account SID from twilio.com/console
-account_sid = "ACdd90001e8b46d5a07b37a4853a135c87"
-# Your Auth Token from twilio.com/console
-auth_token = "04f7aed03b2764bf06b26ad688ecb3c1"
-# Creating a client for accessing twilio for outbound sms or call.
-client = Client(account_sid, auth_token)
-
 # initialing app in Flask
 app = Flask(__name__)
 
